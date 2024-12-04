@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  web:
+    build: .
+    ports: 
+     - "81:80"
+  redis:
+    image: "newphpweb:latest"
